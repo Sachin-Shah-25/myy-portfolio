@@ -6,6 +6,7 @@ import { ProjectComponent } from './Components/ProjectComponent.jsx'
 import { SkillComponent } from './Components/SkillComponent.jsx'
 import { useRef } from 'react'
 import {motion} from 'framer-motion'
+import { HeroRightSection } from './Components/HeroRightSection.jsx'
 export const Layout = () => {
     const ref = useRef(null)
     const homeRef = useRef(null)
@@ -26,6 +27,7 @@ export const Layout = () => {
             <div className="hero_section">
 
                 <HeroLeftSection changeRef={changeRef}  ></HeroLeftSection>
+                <HeroRightSection ></HeroRightSection>
             </div>
             <div className="about_section">
                 <About />
