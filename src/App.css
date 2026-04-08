@@ -209,32 +209,25 @@
 .tech_icons {
   width: 70px;
   height: 70px;
-  position: fixed;
+  position: absolute;
   opacity: .7;
   z-index: 1;
-  display: none ;
+  display: none;
 }
 
 .t1 {
-  right: 40%;
+  left: 10%;
 
 }
 
-.t2 {
-  right: 11%;
-  top: 40%
-}
+
 
 .t3 {
-  right: 35%;
-  bottom: 70px;
+  left: 8%;
+  bottom: 0px;
   z-index: 1;
 }
 
-.t4 {
-  right: 15%;
-  bottom: 100px
-}
 
 
 .about_section {
@@ -683,7 +676,10 @@
   .menu {
     display: flex;
   }
+.tech_icons{
+  display: block;
 
+}
   .cross {
     display: flex;
     cursor: pointer;
