@@ -1,6 +1,6 @@
-import image1 from '../assets/img1.png'
-import image2 from '../assets/img2.png'
-import image3 from '../assets/img3.png'
+import image1 from '../assets/img1.PNG'
+import image2 from '../assets/img2.PNG'
+import image3 from '../assets/img3.PNG'
 import React from 'react'
 import { motion } from 'framer-motion'
 export const ProjectComponent = React.forwardRef(() => {
