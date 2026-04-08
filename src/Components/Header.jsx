@@ -24,7 +24,7 @@ export const Header = ({ changeRef, getToHome }) => {
                 changeRef()
                 setState(false)
             }} >Contact</li>
-            <li className="download_"><p> Resume</p><span><TbDots /> </span> </li>
+            <a  style={{textDecoration:"none",color:"white"}} href="https://drive.google.com/file/d/1-b8yx99DYuf3bF00k6TfXHWNY4ng8V2M/view?usp=sharing" className="download_"><p> Resume</p><span><TbDots /> </span> </a>
         </ul>
         {
             !getState && <div className="menu" onClick={() => setState(prev => !prev)}> <IoMenu /> </div>
