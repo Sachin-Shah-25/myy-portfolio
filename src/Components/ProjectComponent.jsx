@@ -1,6 +1,6 @@
 import image1 from '../assets/img1.PNG'
-import image2 from '../assets/img2.PNG'
-import image3 from '../assets/img3.PNG'
+import image2 from '../assets/image2.png'
+import image from '../assets/image.png'
 import React from 'react'
 import { motion } from 'framer-motion'
 export const ProjectComponent = React.forwardRef(() => {
@@ -22,13 +22,13 @@ export const ProjectComponent = React.forwardRef(() => {
                 transition={{ duration: 0.95 }}
                 className="project_outer">
                 <div className="project_image">
-                    <img src={image3}></img>
+                    <img src={image}></img>
                 </div>
                 <div className="project_name">
-                    <p className="">AI Chatbot</p>
+                    <p className="">Show And Get Projects</p>
                 </div>
                 <div className="project_dis">
-                    <p>Intelligent chatbot powered by OpenAI for real-time interactions</p>
+                    <p>Here you can upload you work and get update feedback from others </p>
                 </div>
                 <div className="project_tech">
                     <p>Tech : </p> <p>React, Node.js, Express, OpenAI</p>
@@ -37,11 +37,11 @@ export const ProjectComponent = React.forwardRef(() => {
                     <motion.a
                         whileHover={{ scale: 1.1, cursor: "pointer" }}
                         whileTap={{ scale: 0.95 }}
-                        href="https://ai-chatbot-open-ai-mern.vercel.app/">Live Demo</motion.a>
+                        href="https://myblog-sigma-jade.vercel.app/">Live Demo</motion.a>
                     <motion.a
                         whileHover={{ scale: 1.1, cursor: "pointer" }}
                         whileTap={{ scale: 0.95 }}
-                        href="https://github.com/Sachin-Shah-25/AI-Chatbot-OpenAI-MERN">View Code</motion.a>
+                        href="https://github.com/Sachin-Shah-25/myblog">View Code</motion.a>
                 </div>
             </motion.div>
             <motion.div
@@ -50,7 +50,7 @@ export const ProjectComponent = React.forwardRef(() => {
                 transition={{ duration: 0.95 }}
                 className="project_outer">
                 <div className="project_image">
-                    <img src={image1}></img>
+                    <img src={image2}></img>
                 </div>
                 <div className="project_name">
                     <p className="">Hospital Management System</p>
